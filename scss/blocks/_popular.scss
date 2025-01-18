@@ -1,0 +1,225 @@
+// popular__section part started
+.popular__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.popular__first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.popular__title {
+    width: 334px;
+    color: var(--15191-c, #15191C);
+
+    /* 32/Bold */
+    font-family: Circe;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    /* 143.75% */
+}
+
+.popular__info {
+    width: 136px;
+    color: var(--15191-c, #15191C);
+
+    /* 16/Medium */
+    font-family: "PT Root UI";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    /* 137.5% */
+}
+
+.binoculars__item {
+    display: flex;
+    width: 235px;
+    padding: 25px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    border: 1px solid var(--e-0-e-1-e-3, #E0E1E3);
+    background: var(--ffffff, #FFF);
+}
+
+
+.binoculars {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.binoculars__title {
+    width: 182px;
+    color: var(--15191-c, #15191C);
+    text-align: center;
+
+    /* 18/Bold */
+    font-family: "PT Root UI";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 133.333% */
+}
+
+
+.binoculars__info {
+    width: 71px;
+    color: var(--747883, #747883);
+    text-align: center;
+    margin: 0 auto;
+    /* 14/Regular */
+    font-family: "PT Root UI";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 128.571% */
+}
+
+// popular__section part finished
+
+// popular__section part started
+@media only screen and (min-width:320px) {
+    .binoculars__title {
+        width: 151px;
+        color: var(--15191-c, #15191C);
+
+        /* 24/Bold */
+        font-family: Circe;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        /* 116.667% */
+    }
+
+    .binoculars__item {
+        width: 173px;
+    }
+
+    .binoculars__info {
+        width: 119px;
+        color: var(--15191-c, #15191C);
+
+        /* 14/Medium */
+        font-family: "PT Root UI";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        /* 128.571% */
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .popular__wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .popular__first {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .popular__title {
+        width: 334px;
+        color: var(--15191-c, #15191C);
+
+        /* 32/Bold */
+        font-family: Circe;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 46px;
+        /* 143.75% */
+    }
+
+    .popular__info {
+        width: 136px;
+        color: var(--15191-c, #15191C);
+
+        /* 16/Medium */
+        font-family: "PT Root UI";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        /* 137.5% */
+    }
+
+    .binoculars__item {
+        display: flex;
+        width: 235px;
+        padding: 25px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        border: 1px solid var(--e-0-e-1-e-3, #E0E1E3);
+        background: var(--ffffff, #FFF);
+    }
+
+
+    .binoculars {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .binoculars__title {
+        width: 182px;
+        color: var(--15191-c, #15191C);
+        text-align: center;
+
+        /* 18/Bold */
+        font-family: "PT Root UI";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        /* 133.333% */
+    }
+
+
+    .binoculars__info {
+        width: 71px;
+        color: var(--747883, #747883);
+        text-align: center;
+        margin: 0 auto;
+        /* 14/Regular */
+        font-family: "PT Root UI";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        /* 128.571% */
+    }
+}
+
+// popular__section part finished
